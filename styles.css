@@ -18,13 +18,64 @@ You will be asked to explain and point out your styling choices to your TA durin
 Notes
 */
 body {
-    background-color: powderblue;
-    margin: 8px,
-    display: block;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.leftpadding {
+  padding-left: 20px;
+}
+
+#leftpad {
+  padding-left: 20px;
+}
+
+#mainHeading {
+  margin: auto;
+  width:25%;
+  text-align:center;
+  border: 3px solid navy;
+  padding: 10px;
+  color: red;
+}
+
+#testP.funParagraph {
+  background-color: green;
+  width:40%;
+  padding-left: 40px;
+  color: white;
+}
+
+body {
+  background-image: url("https://i.ibb.co/xGKCWYb/cool-background-1.png");
+  margin: 8px;
+  display: block;
+}
